@@ -1,0 +1,27 @@
+header {
+   display: flex;
+  flex-wrap:wrap;
+  width:100%;
+ }
+
+img {
+  display:block;
+  height:4 rem;
+  width: 10 rem;
+}
+
+h1 {
+  flex:1;
+  line-height: 4 rem;
+  margin:0;
+  width:100%;
+  text-align: center;
+  padding: 20px;
+  background-color: #252525;
+  color:white;
+}
+
+div {
+  width:100%;
+}
+
