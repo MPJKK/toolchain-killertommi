@@ -4,6 +4,7 @@ body{
   padding:0;
   font-family: sans-serif;
   background-color: white;
+  flex-wrap:wrap;
 }
 
 .container {
@@ -15,27 +16,34 @@ body{
 
 header {
   width:100%;
-  background-color: #e4e9a2;
+  background-color: #eae98a;
+  flex-wrap:wrap;
 }
 
 main {
-  width:55%;
-  background-color: #bebebe;
-  margin-left:10%;
+  width:65%;
+  background-color: rgba(203, 203, 203, 0.62);
+  margin-left:2%;
   margin-top:20px;
   margin-bottom:20px;
+  border-radius: 6px;
+  flex-wrap:wrap;
 }
 
 aside {
-  width:15%;
+  width:30%;
   background-color: #889cac;
   margin-right: 0;
-  margin-left:5%;
+  margin-left:2%;
   margin-bottom:20px;
   margin-top:20px;
+  border-radius: 6px;
+  flex-wrap:wrap;
 }
 
 footer {
   width: 100%;
-  background-color: #e1dde2;
+  background-color: #dfbee2;
+  border-radius: 3px;
+  flex-wrap:wrap;
 }
