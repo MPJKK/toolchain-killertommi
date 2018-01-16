@@ -3,6 +3,7 @@ body{
   margin:0;
   padding:0;
   font-family: sans-serif;
+  background-color: white;
 }
 
 .container {
@@ -14,19 +15,27 @@ body{
 
 header {
   width:100%;
+  background-color: #e4e9a2;
 }
 
 main {
-  width:85%;
+  width:55%;
   background-color: #bebebe;
+  margin-left:10%;
+  margin-top:20px;
+  margin-bottom:20px;
 }
 
 aside {
   width:15%;
   background-color: #889cac;
+  margin-right: 0;
+  margin-left:5%;
+  margin-bottom:20px;
+  margin-top:20px;
 }
 
 footer {
   width: 100%;
-  background-color: grey;
+  background-color: #e1dde2;
 }
