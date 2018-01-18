@@ -3,8 +3,9 @@ p{
 }
 
 img {
-  width:200px;
-  height:100px;
-  margin-left:10%;
+  max-width:400px;
+  max-height:300px;
   flex-wrap: wrap;
+  margin: 0 auto;
+  display:flex;
 }
